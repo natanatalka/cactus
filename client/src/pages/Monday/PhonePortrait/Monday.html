@@ -1,3 +1,40 @@
 <ion-content data-comp-id="content.1">
     <button block="" data-comp-id="button.1" ion-button="">Nata</button>
+    <div data-comp-id="text.1" ion-text="">Some text</div>
+    <ion-title data-comp-id="title.1">
+        Title
+    </ion-title>
+    <ion-item data-comp-id="textarea.1">
+        <ion-label>Label</ion-label>
+        <ion-textarea placeholder="Type here..."></ion-textarea>
+    </ion-item>
+    <ion-item data-comp-id="select.1">
+        <ion-label>Select</ion-label>
+        <ion-select [selectOptions]="{cssClass: 'select-full'}">
+            <ion-option data-comp-id="option.1"></ion-option>
+        </ion-select>
+    </ion-item>
+    <ion-item data-comp-id="checkbox.1">
+        <ion-label>Checkbox</ion-label>
+        <ion-checkbox></ion-checkbox>
+    </ion-item>
+    <ion-item data-comp-id="toggle.1">
+        <ion-label>Toggle</ion-label>
+        <ion-toggle></ion-toggle>
+    </ion-item>
+    <button data-comp-id="button.2" ion-button="">Button</button>
+    <ion-item data-comp-id="radio.1">
+        <ion-label>Radio Button</ion-label>
+        <ion-radio></ion-radio>
+    </ion-item>
+    <ion-chip data-comp-id="chip.1">
+        <ion-icon data-comp-id="icon.1" name="ios-pin"></ion-icon>
+        <ion-label data-comp-id="label.1">Text Chip</ion-label>
+    </ion-chip>
+    <ion-item data-comp-id="datetime.1">
+        <ion-label>Date Time</ion-label>
+        <ion-datetime displayFormat="YYYY-MM-DD" max="2100-12-12" min="1900-01-01"
+            pickerFormat="YYYY MM DD"></ion-datetime>
+    </ion-item>
+    <test-deps-component data-comp-id="test-deps.1"></test-deps-component>
 </ion-content>
