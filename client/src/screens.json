@@ -1,12 +1,5 @@
 {
   "id": "__BASE__",
   "name": "cactus",
-  "screens": [
-    {
-      "id": "Screen",
-      "name": "Screen",
-      "sourceScreenId": "Blank",
-      "sourceAppId": "default"
-    }
-  ]
+  "screens": []
 }
