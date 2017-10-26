@@ -13,10 +13,5 @@
     "type": "object",
     "comment": "Blank",
     "properties": {}
-  },
-  "Monday": {
-    "type": "object",
-    "comment": "Blank",
-    "properties": {}
   }
 }
